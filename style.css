@@ -1,0 +1,79 @@
+body{
+  background: #C2DFE3;
+  color: #5C6B73;
+  font-size: 10px;
+  font-family: Arial;
+}
+h1{
+  font-family: Arial;
+  color: #858AE3;
+  font-weight: bolder;
+  font-size: 15px;
+}
+h2 {
+  font-family: Arial;
+  color: #253237;
+  font-weight: bold;
+  font-size: 12px;
+}
+a {
+  color: #E0FBFC;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1000/600?random");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+#footer a:hover {
+  color: white;
+}
+}
