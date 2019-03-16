@@ -1,14 +1,9 @@
 body{
-  background: #C2DFE3;
-  color: #5C6B73;
+  background-image:linear-gradient(#8DA1B9, #CBB3BF);
+  background-attachment:fixed;
+  color: grey;
   font-size: 10px;
   font-family: Arial;
-}
-h1{
-  font-family: Arial;
-  color: #858AE3;
-  font-weight: bolder;
-  font-size: 15px;
 }
 h2 {
   font-family: Arial;
@@ -16,58 +11,53 @@ h2 {
   font-weight: bold;
   font-size: 12px;
 }
-a {
-  color: #E0FBFC;
+.bouton-linkedin {
+  font-size: 50px;
+  color: #272635;
 }
-a:hover {
+.bouton-linkedin:hover {
   text-decoration: none;
-  color: purple;
+  color: #E8E9F3;
 }
 #banner{
+  margin-top: 80px;
   text-align: center;
-  background-image: url("https://unsplash.it/1000/600?random");
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
   color: white;
 }
-#banner h1 {
-  font-size: 50px;
-}
+
 #banner p {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
   opacity: 0.8;
   font-size: 30px;
   font-weight: lighter;
+}
+#banner a {
+  margin-bottom: 40px;
+  opacity: 0,8;
+}
+#banner img {
+  position: absolute;
+  z-index: 4;
+  top: 30%; left: 40%;
+  height: 220px;
+  border : 50px;
+  border-color: white;
+}
+.absolute {
+  position: relative;
+  z-index: 2;
+  height: 120px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius : 10px 10px 0px 0px;
 }
 #footer{
   padding: 30px;
   background-color: black;
   color: lightgrey;
-}
-.card-white {
-  background-color: white;
-  border-radius: 4px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 16px;
-  margin: 16px 0px;
-}
-.card-white img {
-  margin-bottom: 20px;
-}
-
-.btn-blue {
-  color: white;
-  background-color: #6772e5;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 15px 20px;
-}
-
-.btn-blue:hover {
-  background-color: #7795f8;
-  color: white;
 }
 #footer a {
   color: lightgrey;
@@ -76,4 +66,103 @@ a:hover {
 #footer a:hover {
   color: white;
 }
+.conteneur {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 10px 40px;
+}
+.carousel-inner h3 {
+  margin: 10px 0 0 0;
+  color: #272635;
+}
+.carousel-inner h4 {
+  margin: 10px 0 0 0;
+  color: grey;
+  font-size: 15px;
+}
+.carousel-inner h5 {
+  margin: 10px 0 0 0;
+  color: darkgrey;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.bulletpoints {
+  color : darkgrey;
+  font-size: 15px;
+  text-align: left;
+  padding : 5px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.bd-example {
+  position: ;
+  background-color: white;
+  margin: 0 15px 15px 15px;
+  padding: 15px 20px;
+  border-radius: 0 0 10px 10px;
+}
+.carousel-indicators {
+  color: #272635;
+}
+.carousel-control-next button {
+  color: #272635;
+}
+.carousel-inner {
+  interval: 5000;
+  height:  300px;
+  max-height: 400px;
+}
+.carousel-item  {
+  color: darkgrey;
+  text-align: center;
+}
+
+.date-formation {
+  text-align: center;
+  font-weight: bolder;
+}
+.card-body {
+  color: darkgrey;
+  text-align: justify;
+  font-size: 15px;
+  background-color: white;
+}
+.accordion {
+  margin: 15px;
+  border-radius : 10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.skills {
+  display: flex;
+  margin-bottom: 20px;
+  height: 120px;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.skill {
+  background-color: white;
+  border-radius: 5px;
+  height: 100px;
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.skills img {
+  width:80px;
+  height: 80px;
+}
+.skill h3 {
+  font-size: 20px;
+  color : white;
+}
+.skill h4 {
+  font-size: 12px
 }
