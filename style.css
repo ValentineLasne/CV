@@ -129,10 +129,11 @@ h2 {
   text-align: justify;
   font-size: 15px;
   background-color: white;
+  border-radius: 10px;
 }
 .accordion {
   margin: 15px;
-  border-radius : 10px;
+  border-radius : 15px;
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -165,4 +166,120 @@ h2 {
 }
 .skill h4 {
   font-size: 12px
+}
+.contact {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.contact1 {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  margin-left: 15px;
+  width: 50%;  
+  border-radius: 10px 0px 0px 10px;
+}
+.contact1 h3 {
+  font-size: 30px;
+  color: #272635;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+.contact1 h4 {
+  font-size: 25px;
+  color: #272635;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.contact1 h5 {
+  font-size: 20px;
+  color: grey;
+  margin-left: 20px;  
+}
+.contact2 {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  margin-right : 15px;
+  width: 50%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+@media screen and (max-width: 767px) {
+.skill h3 {
+  display: none;
+}
+.skill h4 {
+  display: none;
+}
+.skills {
+  margin-left: 5px;
+  margin-right: 5px; 
+  margin-bottom: 1px;
+}
+.skill {
+  width: 70px;
+  height: 70px;
+}
+.skills img {
+  width:50px;
+  height: 50px; 
+}
+.conteneur {
+  display: flex;
+  flex-wrap: wrap;
+}
+.carousel-inner {
+  height: 600px;
+}
+.carousel-inner h3 {
+  font-size: 15px;
+}
+.carousel-inner h4 {
+  font-size: 10px;
+}
+.carousel-inner h5 {
+  font-size: 15px;
+}
+.bulletpoints {
+  font-size: 14px;
+}
+.bouton-linkedin {
+  font-size: 25px;
+}
+#banner p {
+  font-size: 20px;
+}
+#banner img {
+  height :120px;
+}
+.absolute {
+  height: 80px;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact1 {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  margin-right: 15px;
+}
+.contact1 h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+ } 
+ .contact1 h4 {
+  font-size: 17px;
+  margin-bottom: 5px;
+ } 
+ .contact1 h5 {
+  font-size: 15px
+ } 
+.contact2 {
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  margin-left: 15px;
 }
