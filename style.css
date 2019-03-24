@@ -49,7 +49,7 @@ h2 {
   position: relative;
   z-index: 2;
   height: 120px;
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   margin-left: 15px;
   margin-right: 15px;
   border-radius : 10px 10px 0px 0px;
@@ -72,22 +72,23 @@ h2 {
 }
 .carousel-inner h5 {
   margin: 10px 0 0 0;
-  color: darkgrey;
+  color: grey;
   font-size: 25px;
   margin-bottom: 10px;
 }
 .bulletpoints {
-  color : darkgrey;
+  color : grey;
   font-size: 15px;
   text-align: left;
   padding : 5px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;  
 }
 .bd-example {
   position: ;
-  background-color: white;
+  background-color: rgba(255,255,255,0.5);
   margin: 0 15px 15px 15px;
   padding: 15px 20px;
   border-radius: 0 0 10px 10px;
@@ -104,7 +105,7 @@ h2 {
   max-height: 400px;
 }
 .carousel-item  {
-  color: darkgrey;
+  color: grey;
   text-align: center;
 }
 
@@ -112,18 +113,23 @@ h2 {
   text-align: center;
   font-weight: bolder;
 }
+.card {
+  background-color: rgba(255,255,255,0.5);
+}
 .card-body {
-  color: darkgrey;
-  text-align: justify;
+  color: grey;
+  text-align: left;
   font-size: 15px;
   background-color: white;
   border-radius: 10px;
+  background-color: rgba(255,255,255,0.5);
 }
 .accordion {
   margin: 15px;
   border-radius : 15px;
   margin-bottom: 40px;
   margin-top: 40px;
+  background-color: rgba(255,255,255,0);
 }
 .skills {
   display: flex;
@@ -228,6 +234,9 @@ h2 {
 .conteneur {
   display: flex;
   flex-wrap: wrap;
+}
+.card-body {
+  font-size: 13px;
 }
 .carousel-inner {
   height: 600px;
