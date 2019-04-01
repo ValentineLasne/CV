@@ -224,6 +224,7 @@ h2 {
 .skill {
   width: 70px;
   height: 70px;
+  margin-bottom: 0px;
 }
 .skills img {
   width:50px;
