@@ -175,15 +175,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>	
 
 <div class="contact2">
-<form method="POST" action="">
+<form method="POST" action="contact.php">
   <div class="form-group">
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Votre Adresse Email">
     <small id="emailHelp" class="form-text text-muted">Les données sont confidentielles</small>
   </div>
  <div class="form-group">
-    <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+    <textarea type="text" class="form-control" name="message" id="message" rows="3" placeholder="Votre Message"></textarea>
   </div>
-  <button type="submit" class="btn btn-secondary">Envoyer</button>
+  <button type="submit" name="envoi" class="btn btn-secondary">Envoyer</button>
 </form>
 </div>
 </div>
